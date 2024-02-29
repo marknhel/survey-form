@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	</head>
+	<body>
+		<div id="" class="container" >
+			<h1 id="title">Survey Profile</h1>
+
+			<p id="description" class="">
+				The purpose of this survey is for me to pass the certification of <a class="" id="" href="https://www.freecodecamp.org/">freeCodeCamp.org</a> that I'm currently taking.
+			</p>
+
+			<form id="survey-form" class="" action="" method="" >
+				<fieldset id="basic-info-field" class="">
+					<legend id="" class="" >Basic Information</legend>
+					<label for="name" id="name-label" class="" > Name
+					</label>
+					<input type="text" name="" id="name" class="" placeholder="Name" required />
+					<label for="email" id="email-label" class="" > Email
+					</label>
+					<input type="email" name="" id="email" class="" placeholder="Email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
+					<label for="number" id="number-label" class="" > Age
+					</label>
+					<input type="number" name="" id="number" class="" placeholder="Age" pattern="[0-9]*" min="1" max="100">
+					<label for="dropdown" id="" class="" >Gender</label>
+					<select id="dropdown" class="">
+						<option id="" class="">Male</option>
+						<option id="" class="">Female</option>
+					</select>
+
+				</fieldset>
+
+
+				<fieldset id="education-field" class="">
+					<legend id="" class="" >Educational Attainment</legend>
+					<span id="" class="fieldset-child" >
+						<input type="radio" name="education" id="elementary" class="" value="elementary">
+						<label for="elementary" id="" class="" >Elementary</label>
+					</span>
+
+					<span id="" class="fieldset-child" >
+						<input type="radio" name="education" id="high-school"  value="high-school">
+						<label for="high-school" id="" class="" >High School</label>
+					</span>
+
+					<span id="" class="fieldset-child" >
+						<input type="radio" name="education" id="college-level"  value="college-level">
+						<label for="college-level" id="" class="" >College Level</label>
+					</span>
+					<span id="" class="fieldset-child" >
+						<input type="radio" name="education" id="college-graduate"  value="college-graduate">
+						<label for="college-graduate" id="" class="" >College Graduate</label>
+					</span>
+				</fieldset>
+
+
+
+				<fieldset id="hobby-field" class="">
+					<legend id="" class="" >Hobbies</legend>
+					<span id="" class="fieldset-child" >
+						<input type="checkbox" name="online-games" id="online-games" class="" value="games">
+						<label for="online-games" id="" class="" >Online Games</label>
+					</span>
+					<span id="" class="fieldset-child" >
+						<input type="checkbox" name="physical-sports" id="" class="" value="physical-sports">
+						<label for="physical-sports" id="" class="" >Physical Sports</label>
+					</span>
+					<span id="" class="fieldset-child" >
+						<input type="checkbox" name="singing" id="singin" class="" value="singing">
+						<label for="singing" id="" class="" >Singing</label>
+					</span>
+					<span id="" class="fieldset-child" >
+						<input type="checkbox" name="playing-intrument" id="playing-instrument" class="" value="playing-instrument">
+						<label for="playing-instrument" id="" class="" >Playing Instrument</label>
+
+					</span>
+				</fieldset>
+
+				<fieldset id="comment" class="">
+					<legend id="" class="" >Tell us something about yourself</legend>
+					<textarea id="comment" class="" placeholder="Tell us something..." ></textarea>
+				</fieldset>
+
+
+
+				<button id="submit" class="" type="submit" >Submit</button>
+
+			</form>
+
+		</div>
+
+	</body>
+</html>
